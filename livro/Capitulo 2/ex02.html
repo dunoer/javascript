@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exemplos 2.2</title>
+  <style>
+    * {
+      padding: 0;
+      margin: 0;
+    }
+
+    body {
+      width: 900px;
+      height: 100vh;
+      margin: auto;
+      font-family: Arial, Helvetica, sans-serif;
+      border: 1px solid rgba(0, 0, 0, 0.135);
+
+    }
+
+    h1 {
+      padding: 10px;
+      text-align: center;
+      color: #7298F7;
+      font-weight: bold;
+      font-size: 2.5em;
+    }
+
+    form {
+      background-color: #72ECF7;
+      width: 600px;
+      border-radius: 6px;
+      box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.386);
+      margin: auto;
+      padding-bottom: 5px;
+      padding-top: 5px;
+
+    }
+
+    form>p {
+      padding: 15px;
+      font-weight: bold;
+      text-transform: capitalize;
+    }
+
+    #botao {
+      padding: 15px;
+      width: 350px;
+      height: 50px;
+      border-radius: 6px;
+      text-align: center;
+      background-color: #7298F7;
+      color: white;
+      border: none;
+      display: block;
+      margin: 0 auto;
+      margin-bottom: 15px;
+      box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.445);
+    }
+
+    .campo {
+      width: 430px;
+      height: 25px;
+      border: none;
+      border-radius: 10px;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>Cine JS: Filmes em Cartaz</h1>
+  <form action="">
+    <p>Título do Filme:
+      <input type="text" id="inTitulo" class="campo" required>
+    </p>
+    <p>Duração (min):
+      <input type="number" id="inDuracao" class="campo" required>
+    </p>
+    <input type="submit" id="botao" value="Converter em horas e minutos">
+  </form>
+
+  <h3></h3>
+  <h4></h4>
+  <script src="js/ex2_2.js"></script>
+</body>
+
+</html>
