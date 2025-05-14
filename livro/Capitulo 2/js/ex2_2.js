@@ -10,7 +10,11 @@ frm.addEventListener("submit", (e) => {
 
   const horas = Math.floor(duracao / 60); //arredonda o valor para abaixo
   const minutos = duracao % 60; //obtem o resto da divisao
-  resp1.innerText = titulo;
+  resp1.innerText = "Título: " + titulo;
   resp2.innerText = horas + "hora(s) e " + minutos + "minuto(s)";
+
+  resp1.classList.remove("oculto");
+  resp2.classList.remove("oculto");
+
   e.preventDefault();
 });
