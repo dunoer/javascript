@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Farmacia js</title>
+</head>
+
+<body>
+  <h1>Farmacia JS</h1>
+  <form action="" method="get">
+    <p>
+      <label for="imedicamento">Medicamento: </label>
+      <input type="text" name="medicamento" id="imedicamento" placeholder="Digite o Medicamento" minlength="6" maxlength="50" required>
+    </p>
+    <p>
+      <label for="ipreco">Preço R$: </label>
+      <input type="number" name="preco" id="ipreco" min="1" max="300" step="0.01" required>
+    </p>
+    <p>
+      <input type="submit" value="Mostrar Promoção">
+    </p>
+  </form>
+  <h3 id="resp1"></h3>
+  <h3 id="resp2"></h3>
+  <script src="js/resp01.js"></script>
+</body>
+
+</html>
