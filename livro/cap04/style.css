@@ -7,6 +7,7 @@
   text-align: center;
   font-weight: bold;
   font-family: Arial, Helvetica, sans-serif;
+  border-radius: 5px;
 }
 .reprovado {
   width: 370px;
@@ -17,8 +18,35 @@
   color: white;
   font-weight: bold;
   font-family: Arial, Helvetica, sans-serif;
+  border-radius: 5px;
 }
 body {
   width: 900px;
   margin: auto;
 }
+#conteudo {
+  border: 1px solid black;
+  padding: 20px;
+  width: 600px;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.354);
+  border-radius: 10px;
+  margin-top: 20px;
+}
+h1 {
+  text-align: center;
+  margin-top: 0;
+}
+.botao {
+  padding: 10px;
+  border-radius: 5px;
+  background-color: rgb(98, 40, 152);
+  color: white;
+  font-weight: bold;
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.253);
+  text-transform: uppercase;
+  border: none;
+  text-align: center;
+}
+.centro {
+  text-align: center;
+} 
