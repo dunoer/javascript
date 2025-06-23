@@ -5,20 +5,107 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Para ou impar</title>
+  <style>
+    * {
+      margin: 0px;
+      padding: 0px;
+      font-family: 'Times New Roman', Times, serif;
+    }
+
+    section {
+      width: 900px;
+      margin: auto;
+    }
+
+    h1 {
+      text-align: center;
+      padding: 20px;
+    }
+
+    form {
+      position: relative;
+      border: 1px solid black;
+      padding: 20px;
+      width: 320px;
+      margin: auto;
+      box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.299);
+      border-radius: 15px;
+      overflow: hidden;
+      position: relative;
+    }
+
+    div {
+      padding: 10px;
+    }
+
+    .botao {
+      padding: 5px;
+      background-color: rgb(26, 107, 66);
+      color: white;
+      border: none;
+      border-radius: 5px;
+      box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.285);
+      text-transform: uppercase;
+      width: 230px;
+      margin: auto;
+    }
+
+    .par {
+      display: block;
+      writing-mode: vertical-lr;
+      text-orientation: mixed;
+      position: absolute;
+      top: 0px;
+      right: 10px;
+      transform: rotate(180deg);
+      height: 100%;
+      padding: 5px;
+      background-color: rgb(13, 70, 155);
+      color: white;
+      text-align: center;
+      font-size: 0.9em;
+      font-weight: bold;
+      box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.217);
+
+
+    }
+
+    .impar {
+      display: block;
+      writing-mode: vertical-lr;
+      text-orientation: mixed;
+      position: absolute;
+      top: 0px;
+      right: 10px;
+      transform: rotate(180deg);
+      height: 100%;
+      padding: 5px;
+      background-color: rgba(123, 9, 9, 0.874);
+      color: white;
+      text-align: center;
+      font-size: 0.9em;
+      font-weight: bold;
+      box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.217);
+    }
+  </style>
 </head>
 
 <body>
-  <h1>Programa Par ou Impar</h1>
-  <form action="">
-    <div>
-      <label for="inumero">Numero:</label>
-      <input type="number" name="numero" id="inumero">
-    </div>
-    <div>
-      <input type="submit" value="Verificar se é par ou impar">
-    </div>
-    <h3></h3>
-  </form>
+  <section>
+
+    <h1>Programa Par ou Impar</h1>
+    <form action="">
+      <div>
+        <label for="inumero">Numero:</label>
+        <input type="number" name="numero" id="inumero" placeholder="DIGITE UM NUMERO" minlength="1" maxlength="100" required>
+      </div>
+      <div>
+        <input class="botao" type="submit" value="Verificar se é par ou impar">
+      </div>
+      <h3></h3>
+    </form>
+
+  </section>
   <script src="js/resp1.js"></script>
 </body>
 
