@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Parquimetro</title>
+  <style>
+    .oculto {
+      display: none;
+    }
+  </style>
+</head>
+
+<body>
+  <form action="">
+    <h1>Programa Parquimetro</h1>
+    <div>
+      <label for="ivalor">Valor: R$</label>
+      <input type="number" name="Valor" id="ivalor" min="0" max="5" step="0.01" required placeholder="Digite o valor">
+    </div>
+    <div>
+      <input type="submit" value="Confirmar Deposito">
+    </div>
+  </form>
+
+  <h3 class="resptempo"></h3>
+  <h3 class="resptroco"></h3>
+  <script src="js/resp3.js"></script>
+
+</body>
+
+</html>
