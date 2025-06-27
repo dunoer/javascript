@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tabuada</title>
+  <style>
+    .formatacao {
+      background-color: #f4f4f4;
+      padding: 15px;
+      font-family: monospace;
+      border-radius: 8px;
+      margin-top: 20px;
+      width: 300px;
+      font-weight: bold;
+      box-shadow: 1px 1px 4px black;
+
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>Programa Tabuada</h1>
+  <form action="">
+    <div>
+      <label for="inumero">Numero:</label>
+      <input type="number" name="Numero" id="inumero" min="1" max="10" step="1" placeholder="Numero para tabuada" required>
+    </div>
+    <div>
+      <input type="submit" value="Mostrar tabuada">
+    </div>
+  </form>
+  <pre></pre>
+  <script src="js/ex1.js"></script>
+</body>
+
+</html>
